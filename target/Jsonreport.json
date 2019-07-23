@@ -1,0 +1,127 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login functionality",
+        "description": "",
+        "id": "testme-registration;login-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11451537400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "perform the operation",
+            "match": {
+              "location": "register.perform_the_operation()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256307000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "provide subha and sekar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "subha",
+                  "offset": 8
+                },
+                {
+                  "val": "sekar",
+                  "offset": 18
+                }
+              ],
+              "location": "register.username(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 387987800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "provide user subha@gmail.com and \"9876543210\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "subha@gmail.com",
+                  "offset": 13
+                },
+                {
+                  "val": "\"9876543210\"",
+                  "offset": 33
+                }
+              ],
+              "location": "register.userno(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 401696600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "provide user \"No.23A,xyz street\" and \"rajiv nagar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"No.23A,xyz street\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"rajiv nagar\"",
+                  "offset": 37
+                }
+              ],
+              "location": "register.address(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 475196900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "provide user chennai \"Tamil Nadu\" and \"632513\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chennai",
+                  "offset": 13
+                },
+                {
+                  "val": "\"Tamil Nadu\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"632513\"",
+                  "offset": 38
+                }
+              ],
+              "location": "register.citycode(String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testme Registration",
+    "description": " This file describes the registration process",
+    "id": "testme-registration",
+    "keyword": "Feature",
+    "uri": "Features/registration.feature",
+    "tags": []
+  }
+]
